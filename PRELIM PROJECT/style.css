@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f0f0f0;
+}
+nav{
+    height: 100vh;
+    width: 200px;
+    background-color: #333;
+    position: fixed;
+    
+    
+}
+.image-container{
+    height: 170px;
+    width: 100%;
+    background-color: #333;
+
+}
+.logo{
+    height: 170px;
+    width: 100%;
+}
+.links{
+    margin-top: 0px;
+}
+
+nav a{
+    display: block;
+    margin: 10px;
+    margin-top: 20  px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    font-weight: bolder;
+    transition: 0.5s;
+    position: sticky;
+    
+}
+nav a:hover{
+    background-color: azure;
+    color: #333;
+    border-radius: 10px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    margin-left: 60px;
+}
+hr{
+    width: 140px;
+    height: 2px;
+    background-color: white;
+    margin-left: 20px;
+    clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+}
+.main-container{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 3rem;
+    margin-left: 15rem;
+    background-color: #333;   
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.foodimg{
+    object-fit:fill;
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+
+}
+.menu-img{
+    object-fit:fill;
+    height: 400px;
+    width: 500px;
+    background-color: aqua;
+
+}
+.sub-container{
+    height: 750px;
+    width: 500px;
+    position: absolute;
+    top: 3rem;
+    margin-left: 47rem; 
+    border-radius: 1rem;
+    overflow: hidden;
+    color: #333;
+    padding: 1rem;
+}
+.sub-container-2{   
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 35rem;
+    margin-left: 15rem;
+    border-radius: 1rem;
+    overflow: hidden;
+    color: white;
+    padding: 2rem;
+    background-color: #333;
+}
+span{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    
+}
+.description{
+    font-size: 29px;
+}
+.main-header{
+    background-color: #333;
+    width: auto;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f0f0f0;
+}
+.container{
+    width: auto;
+    height: 86.5vh;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+}
+.container-1{
+    width: 20rem;
+    height: 25rem;
+    background-color: rgb(2, 160, 49);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    position: relative; 
+  
+}
+
+.container-2{
+    width: 20rem;
+    height: 25rem;
+    background-color: rgb(236, 255, 28);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    position: relative; 
+    
+}
+.container-3{
+    width: 20rem;
+    height: 25rem;
+    background-color: rgb(39, 28, 94);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 1.5rem;
+    overflow: hidden;
+    position: relative; 
+    
+}
+.menu-img{
+    filter: brightness(50%);
+    transition: 0.8s;
+}
+.menu-img:hover{
+    filter: brightness(100%);
+}
+.image-text {
+    position: absolute; 
+    width: 30rem;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: white; 
+    font-size: 1.2rem; 
+    text-align: center; 
+
+    background-color: black;
+    padding: 1rem;
+    opacity: 0.7;
+}
+.image-btn {
+    position: absolute; /* Position text absolutely within container */
+    top: 88%; /* Center text vertically */
+    left: 50%; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning for centering */
+    color: white; /* Adjust text color for better contrast */
+    font-size: 1.2rem; /* Adjust text size as needed */
+    text-align: center; /* Center text alignment */
+    /* Add additional styles for background, padding, etc. (optional) */
+
+}
+.btn-img{
+    text-decoration: none;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    color: #333;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.9;
+}
+.button{
+    outline: none;
+    border: none;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    color: #333;
+    font-weight: bold;
+    background-color: white;
+    opacity: 0.9;
+}
+.nav-btn{
+    position: absolute; /* Position text absolutely within container */
+    top: 92%; /* Center text vertically */
+    left: 50%; /* Center text horizontally */
+    transform: translate(-50%, -50%); /* Adjust positioning for centering */
+    color: white; /* Adjust text color for better contrast */
+    font-size: 1.2rem; /* Adjust text size as needed */
+    text-align: center; /* Center text alignment */
+    /* Add additional styles for background, padding, etc. (optional) */
+}
+
